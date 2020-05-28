@@ -13,6 +13,11 @@ var secondaDomanda = parseInt(prompt("inserisci un altro numero"));
 var messaggioPredif = 'Hai inserito ' + primaDomanda + ' nella prima domanda e ' + secondaDomanda + ' nella seconda domanda';
 var messaggioFinale = '';
 var messaggioStampa = '';
+<<<<<<< HEAD
+=======
+var messaggioErrore = 'devi inserire un numero valido';
+
+>>>>>>> master
 
 // creo un ciclo
 if (primaDomanda > secondaDomanda) {
